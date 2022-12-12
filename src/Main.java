@@ -8,8 +8,9 @@ public class Main {
         num1 = input.nextInt();
         System.out.print("2.sayıyı giriniz : ");
         num2 = input.nextInt();
-        int i = 1;
-        while (i<=num1){
+        int i = 1,finder;
+        finder = Math.max(num1, num2);
+        while (i<=finder){
             if (num1 % i ==0 && num2 % i ==0){
                 ebob = i ;
             }
